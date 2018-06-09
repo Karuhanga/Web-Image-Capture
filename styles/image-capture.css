@@ -1,0 +1,36 @@
+
+body{
+	background: #fafafa;
+}
+
+.centered{
+	text-align: center !important;
+}
+
+#id-image-input{
+	visibility: hidden;
+}
+
+#id-loader{
+	height: 280px;
+	width: 300px;
+	margin: auto;
+}
+
+#id-image-loading{
+	height: 100px;
+	width: 100px;
+}
+
+#id-video-feed{
+	/*height: 300px !important;*/
+	width: 400px !important;
+}
+
+#id-image{
+	display: none;
+}
+
+#id-form{
+	/*margin: auto;*/
+}

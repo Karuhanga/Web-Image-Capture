@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles/bulma.min.css">
+		<link rel="stylesheet" type="text/css" href="styles/image-capture.css">
+		<script type="text/javascript" src="scripts/font-awesome.js"></script>
+		<script type="text/javascript" src="scripts/image-capture.js"></script>
+		<title>Image Capture | Ross 128 B</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+	</head>
+
+	<body>
+
+		<section class="section centered">
+			<div class="container">
+				<h1 class="title">Image Capture</h1>
+			</div>
+
+			<div class="columns">
+				<div class="column">
+					<h2 class="subtitle">Feed</h2>
+					<video id="id-video-feed" width="400px" autoplay=""></video> <br/>
+					<button id="id-button-capture" class="button is-primary">Capture Image</button>
+					<br><br>
+					<label>Feed Source<br><select class="select is-primary"></select></label>
+					<br>
+					<br>
+					<label class="checkbox"> <input type="checkbox"> Use as default </label>
+				</div>
+				<div class="column">
+					<h2 class="subtitle">Capture</h2>
+					<img id="id-image"/>
+					<div id="id-loader">
+						<img id="id-image-loading" src="images/lg.-text-entering-comment-loader.gif">
+						<img id="id-image" src="">
+						<br/>
+						Awaiting Image Capture...
+					</div>
+					<br>
+					<button id="id-button-submit" disabled="true" type="submit" class="button is-dark is-outlined"/ >Upload Image</button><br>
+				</div>
+			</div>
+		</section>
+
+	</body>
+</html>
